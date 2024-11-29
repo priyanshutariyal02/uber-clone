@@ -20,13 +20,13 @@ const getBgVarientStyle = (varient: ButtonProps["bgVariant"]) => {
 const getTextVarientStyle = (varient: ButtonProps["textVariant"]) => {
   switch (varient) {
     case "primary":
-      return "bg-black";
+      return "text-black";
     case "secondary":
       return "text-gray-100";
     case "danger":
-      return "bg-red-100";
+      return "text-red-100";
     case "success":
-      return "bg-green-100";
+      return "text-green-100";
 
     default:
       return "text-white";
