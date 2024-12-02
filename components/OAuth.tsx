@@ -5,7 +5,6 @@ import { icons } from "@/constants";
 
 const OAuth = () => {
   const handleGoogleSignIn = async () => {
-    alert("Done!");
   };
   return (
     <View>
