@@ -59,6 +59,7 @@ const SignIn = () => {
           />
           <InputField
             label="Password"
+            secureTextEntry={true}
             placeholder="Enter your password"
             icon={icons.lock}
             value={form.password}
